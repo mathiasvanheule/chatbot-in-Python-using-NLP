@@ -1,6 +1,14 @@
 {"intents": [
   {"tag": "greetings",
-   "patterns": ["hello", "hi", "hey", "good day"],
+   "patterns": ["hello", "hi", "hey", "Good day"],
    "responses": ["Hello", "Hi", "Hey", "Good day", "What can I do for you?"]
+  },
+  {"tag": "goodbye",
+   "patterns": ["cya", "bye", "Goodbye", "G2G", "see ya"],
+   "responses": ["Talk to you later", "Goodbye", "Bye"]
+  },
+  {"tag": "stocks",
+   "patterns": ["What stocks do I own", "How are my stocks?", "investing information"],
+   "responses": ["You own the following shares : PLTR"]
   }
 ]}
